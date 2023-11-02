@@ -13,7 +13,7 @@
 #include <string.h>
 
 #define SECTOR_SIZE  512
-#define SECTOR_COUNT 128
+#define SECTOR_COUNT 4096 - 1024 // Full disk size - 1024 bytes for raw data
 #define BLOCK_SIZE   4096
 
 /*-----------------------------------------------------------------------*/
